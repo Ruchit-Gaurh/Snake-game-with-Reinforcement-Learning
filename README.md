@@ -31,7 +31,7 @@
 		self.linear1 = nn.Linear(input_size, hidden_size)
 		self.linear2 = nn.Linear(hidden_size, output_size)
 	
-**agent.py**:- It is the main file our agent will play the game through this file. agnet.py put up all our code together, get the current state of the game, save data in short-term memory and in long-term memory to train our model. It also saves checkpoints in case we have stop train and resume it again.
+**agent.py**:- It is the main file our agent will play the game through this file. agnet.py put up all our code together, get the current state of the game, save data in short-term memory and in long-term memory to train our model. It also saves checkpoints in case we have to stop training and resume it again.
 
 `class Agent:`
 
